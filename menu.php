@@ -9,7 +9,7 @@
 
         if(  isset( $_SESSION['logado']) && $_SESSION['logado']  ){
             echo '<a href="categorias.php"><button>Categorias</button></a>';
-            
+            echo '<a href="encomendas.php"><button>Encomendas</button></a>';
             
             echo "Olá ". $_SESSION['nome_usuario']; 
             echo ' <a href="deslogar.php"><button>Sair</button></a> ';

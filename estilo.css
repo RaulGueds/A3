@@ -31,6 +31,10 @@ td {
     padding: 10px;
 }
 
+#tbl_encomendas {
+    background: rgba(0, 0, 255, 0.2);
+}
+
 #tbl_categorias td {
     border-color: red;
     background: #eee;
